@@ -1,6 +1,6 @@
-# twin starter
+# twin starter with webpack
 
-A React Starter with twin(for tailwindcss), styled-components, basic home and react-router-dom.
+A React Starter with twin(for tailwindcss), styled-components, basic home, react-router-dom and webpack.
 
 ## References
 
