@@ -66,6 +66,7 @@ module.exports = {
         port: 3000,
         open: true,
         hot: true,
+	historyApiFallback:true  //缺少该配置，会出现Cannot Get的错误
     },
     plugins:[
         new HtmlWebpackPlugin({
