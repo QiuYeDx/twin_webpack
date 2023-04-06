@@ -4,7 +4,6 @@ import {
     Logo, LogoText
 } from './Styled.twin'
 import { useNavigate } from 'react-router-dom';
-// import logo from 'images/logo192.png';
 
 export default function NavBar(){
     const navigate = useNavigate();
@@ -12,7 +11,6 @@ export default function NavBar(){
         <NavWrapper>
             <LogoWrapper onClick={() => {navigate("/")}}>
                 <Logo/>
-                {/*<img src={logo} alt="Logo" />*/}
                 <LogoText>
                     QiuYeDx
                 </LogoText>
